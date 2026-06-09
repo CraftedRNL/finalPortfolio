@@ -1,0 +1,106 @@
+* {
+    font-family: "Comic Relief", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+    height: 100%;
+    background-color: rgb(127, 204, 255);
+    
+}
+
+body {
+    height: 100%;
+    background-color: rgb(127, 204, 255);
+    font-family: 'Century Gothic', sans-serif;
+    position: relative;
+    padding:2%;
+    
+}
+
+.navbar {
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    position: sticky;
+    border: 6px solid rgba(224, 224, 224, 0.2);
+    border-radius: 30px;
+}
+
+.container-fluid {
+    display: flex;  
+    flex-direction: column;
+    /* gap: 1.5rem; */
+    background-size: cover;
+    width: 100%;
+    border-radius: 50px;
+    background-color:aliceblue;
+    border: 6px solid rgba(53, 122, 250, 0.2);
+    border-radius: 30px;
+}
+
+.placeholder-hero {
+    padding: 2rem;
+    border-radius: 30px;
+    /* background: rgba(255, 255, 255, 0.7); */
+    text-align: center;
+}
+
+.placeholder-hero h1 {
+    margin-bottom: 0.75rem;
+}
+
+.placeholder-grid {
+    width: 100%;
+    margin: 0;
+}
+
+.placeholder-grid > .col-lg-7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.placeholder-card {
+    min-height: 180px;
+    border-radius: 24px;
+    background: rgba(127, 204, 255, 0.25);
+    border: 2px dashed rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 1rem;
+}
+
+.image-frame {
+    /* width: min(100%, 560px); */
+    width: 80%;
+    overflow: hidden;
+    border-radius: 24px;
+    border: 2px solid rgba(0, 0, 0, 0.08);
+    background: rgba(127, 204, 255, 0.15);
+}
+
+.homepage-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.site-footer {
+    /* margin-bottom: 1rem; */
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border-radius: 20px;
+    background:seashell;
+    color: #000000;
+    text-align: center;
+    border: 6px solid rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+}
+.col-lg-7, .col-lg-5{
+    padding: 1rem;
+    margin: 0;
+}
