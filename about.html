@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap demo</title>
+  <title>About | My Portfolio</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,69 +17,51 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
     <a class="navbar-brand" href="index.html">
       <img src="img/dicey.png" width="30" height="30" class="d-inline-block align-top" alt="">
-    My Portfolio</a>
+      My Portfolio
+    </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
       aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="mainNav">
       <ul class="navbar-nav gap-lg-3">
-        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
         <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
       </ul>
     </div>
   </nav>
 
   <div class="container-fluid">
     <section class="placeholder-hero">
-      <h1>My Portfolio</h1>
-      <p>This is the final project for my web development course.</p>
+      <h1>About Me</h1>
+      <p>A quick look at who I am, what I like building, and where I want to go next.</p>
     </section>
 
-    <div class="row g-4 placeholder-grid ">
-      <div class="col-lg-7">
-        <div class="image-frame">
-          <img src="img/webdev.png" alt="Project screenshot" class="rounded homepage-image">
-        </div>
-      </div>
-      <div class="col-lg-5 d-flex flex-column gap-4 justify-content-center">
-        <div class="placeholder-card">Hi, my name is Ryan Liu. A senior (going into college) with a not-so-strong passion for web development.</div>
-        <div class="placeholder-card">My purpose is to create engaging and innovative websites that express my creativity.</div>
-      </div>
-    </div>
-
-    <section class="info-section" id="about">
-      <div class="info-heading">
+    <section class="about-section">
+      <div class="about-card">
         <p class="section-label">About Me</p>
         <h2>Learning, building, and improving with every project.</h2>
-      </div>
-      <div class="info-card">
         <p>
           I am Ryan Liu, a senior heading into college with an interest in web development, design, and creative
           problem solving. I like turning simple ideas into clean, practical websites that feel personal.
         </p>
       </div>
-    </section>
-
-    <section class="info-section" id="projects">
-      <div class="info-heading">
-        <p class="section-label">Projects</p>
-        <h2>Selected work and practice pieces.</h2>
-      </div>
-      <div class="info-card">
-        <h3>This portfolio</h3>
-        <p>
-          The site you are looking at is my main web development project right now. It combines layout, styling,
-          navigation, and responsive design practice in one place.
-        </p>
+      <div class="about-card about-highlights">
+        <div>
+          <h3>Focus</h3>
+          <p>Creating websites that are simple to use, clear to read, and visually engaging.</p>
+        </div>
+        <div>
+          <h3>Goals</h3>
+          <p>Strengthening my front-end skills while building more polished and creative projects.</p>
+        </div>
       </div>
     </section>
-
   </div>
 
-  <footer class="site-footer" id="contact">
+  <footer class="site-footer">
     <p class="section-label">Contact</p>
     <p>If you want to talk about school projects or web development, reach out through my class contact channels.</p>
     <p>&copy; 2026 My Portfolio. All rights reserved.</p>

@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects | My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+    <a class="navbar-brand" href="index.html">
+      <img src="img/dicey.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      My Portfolio
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+      aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+      <ul class="navbar-nav gap-lg-3">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+        <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <section class="placeholder-hero">
+      <h1>Projects</h1>
+      <p>Click a project to open a modal with a quick preview and placeholder details.</p>
+    </section>
+
+    <section class="gallery-section">
+      <div class="projects-grid">
+        <button class="project-card project-card-button" type="button" data-bs-toggle="modal" data-bs-target="#projectModalOne">
+          <img src="img/webdev.png" alt="Portfolio website screenshot" class="project-image">
+          <p class="section-label">Featured Project</p>
+          <h3>Portfolio Website</h3>
+          <p>A simple preview of the main site layout and design.</p>
+        </button>
+        <button class="project-card project-card-button" type="button" data-bs-toggle="modal" data-bs-target="#projectModalTwo">
+          <div class="project-thumb">02</div>
+          <p class="section-label">Course Work</p>
+          <h3>Responsive Layout Practice</h3>
+          <p>A placeholder project showing a cleaner layout exercise.</p>
+        </button>
+        <button class="project-card project-card-button" type="button" data-bs-toggle="modal" data-bs-target="#projectModalThree">
+          <div class="project-thumb">03</div>
+          <p class="section-label">Learning</p>
+          <h3>Future Project</h3>
+          <p>A placeholder slot for another project I can add later.</p>
+        </button>
+      </div>
+    </section>
+  </div>
+
+  <footer class="site-footer">
+    <p class="section-label">Contact</p>
+    <p>If you want to talk about school projects or web development, reach out through my class contact channels.</p>
+    <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+  </footer>
+
+  <div class="modal fade" id="projectModalOne" tabindex="-1" aria-labelledby="projectModalOneLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content project-modal">
+        <div class="modal-header">
+          <h2 class="modal-title fs-4" id="projectModalOneLabel">Portfolio Website</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="img/webdev.png" alt="Portfolio website screenshot" class="modal-project-image">
+          <p>
+            This is the main portfolio site and the one you are browsing right now. It brings together the home page,
+            the project gallery, and the contact footer in one simple layout.
+          </p>
+          <p class="modal-meta"><strong>Languages used:</strong> HTML, CSS, JavaScript, Bootstrap</p>
+          <p class="modal-meta"><strong>Timeframe:</strong> 2025-2026 web development course</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="projectModalTwo" tabindex="-1" aria-labelledby="projectModalTwoLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content project-modal">
+        <div class="modal-header">
+          <h2 class="modal-title fs-4" id="projectModalTwoLabel">Responsive Layout Practice</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-placeholder-image">02</div>
+          <p>
+            This placeholder project represents a class assignment focused on spacing, alignment, and simple page
+            organization.
+          </p>
+          <p class="modal-meta"><strong>Languages used:</strong> HTML, CSS</p>
+          <p class="modal-meta"><strong>Timeframe:</strong> 2025-2026 school year</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="projectModalThree" tabindex="-1" aria-labelledby="projectModalThreeLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content project-modal">
+        <div class="modal-header">
+          <h2 class="modal-title fs-4" id="projectModalThreeLabel">Future Project</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-placeholder-image">03</div>
+          <p>
+            This space is reserved for another project I add later. For now it acts as a placeholder so the gallery
+            shows how a larger project collection could be organized.
+          </p>
+          <p class="modal-meta"><strong>Languages used:</strong> HTML, CSS, JavaScript</p>
+          <p class="modal-meta"><strong>Timeframe:</strong> Placeholder</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
